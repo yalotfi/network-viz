@@ -1,0 +1,47 @@
+{
+  "name": "@yalotfi/network-viz",
+  "version": "0.1.0",
+  "description": "Generate a random Graph structure connecting the k-nearest Nodes and Edges using the p5.js library.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress -p",
+    "watch": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yalotfi/network-viz.git"
+  },
+  "keywords": [
+    "graph",
+    "network",
+    "node",
+    "edge",
+    "vertex",
+    "visualization",
+    "p5"
+  ],
+  "author": "Yaseen Lotfi <yalotfi@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yalotfi/network-viz/issues"
+  },
+  "homepage": "https://github.com/yalotfi/network-viz#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "p5": "^0.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
+  }
+}
