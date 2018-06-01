@@ -1,11 +1,19 @@
 ## Network Visualizer
 
-Generate a random Graph structure connecting the k-nearest Nodes and Edges using the p5.js library.
+Generate a random graph structure connecting the k-nearest nodes and edges using the p5.js library.
 
-## Installation
+![screenshot](./common/screenshot.png)
 
-  `npm i @yalotfi/network-viz`
+## Usage
+
+  `npm install`
+
+  `npm run build`
+
+  `npm start`
+
+There are a couple of dependencies, `p5` for manipulating the HTML5 canvas and `express` for serving a simple Node app. The build step is optional as it is already bundled under `public/js/network-viz.bundle.js`. 
 
 ## Tests
 
-TO-DO
+TODO
